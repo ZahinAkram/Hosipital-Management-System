@@ -1,0 +1,1 @@
+Create table test_info(test_id int,Name_of_the_test varchar(20),Cost int)

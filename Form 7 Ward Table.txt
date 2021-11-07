@@ -1,0 +1,13 @@
+Create table Ward(
+    Ward_Id int,
+    Ward_Name varchar(20),
+    Register_Id int,
+    Register_Name varchar(20),
+    Nurse_Supervisor_Id int,
+    Nurse_Name varchar(20),
+    
+    Bed_No int,
+    Bed_Type varchar(20),
+    Rent int,
+    Status varchar(20)
+)

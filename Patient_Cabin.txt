@@ -1,0 +1,1 @@
+Create Table Patient_Cabin(Patient_ID int,Cabin_ID int)

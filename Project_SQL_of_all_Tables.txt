@@ -1,0 +1,132 @@
+CREATE TABLE Patient(
+    ID INTEGER AUTO_INCREMENT,
+    First_Name VARCHAR(20),
+    Middle_Name VARCHAR(20),
+    Last_Name VARCHAR(20),
+    Date_of_Birth DATE,
+    Mobile_1  INTEGER,
+    Mobile_2 INTEGER,
+    PAD_Street_No VARCHAR(20),
+    PreAD_Name VARCHAR(20),
+    PreAD_Area VARCHAR(20),
+    PreAD_Thana VARCHAR(20),
+    PreAD_District VARCHAR(20),
+    PerAD_Street_No VARCHAR(20),
+    PerAD_Name VARCHAR(20),
+    PerAD_Area VARCHAR(20),
+    PerAD_Thana VARCHAR(20),
+    PerAD_District VARCHAR(20),
+    Profession VARCHAR(20),
+    Date_of_Admission VARCHAR(20),
+    Amount_Deposited INTEGER,
+    Signature_of_the_Gaurdian VARCHAR(20),
+    Date_of_Entry DATE,
+    Relation_with_Patient VARCHAR(20),
+    PRIMARY KEY (ID) 
+)
+
+CREATE TABLE Patient_Health_Records (
+    Height DOUBLE,
+    Weight DOUBLE,
+    Symptoms_S1 VARCHAR(20),
+    Symptoms_S2 VARCHAR(20),
+    Symptoms_S3 VARCHAR(20),
+    Symptoms_S4 VARCHAR(20),
+    Symptoms_S5 VARCHAR(20),
+    Symptoms_S6 VARCHAR(20),
+    Blood_Pressure_Lower DOUBLE,
+    Blood_Pressure_Higher DOUBLE,
+    GFH_BF1 VARCHAR(20),
+    GFH_BF2 VARCHAR(20),
+    GFH_BF3 VARCHAR(20),
+    GFH_LU1 VARCHAR(20),
+    GFH_LU2 VARCHAR(20),
+    GFH_LU3 VARCHAR(20),
+    GFH_DN1 VARCHAR(20),
+    GFH_DN2 VARCHAR(20),
+    GFH_DN3 VARCHAR(20),
+    Hobby_Game VARCHAR(20),
+    Hobby_Others VARCHAR(20),
+    Signature_of_the_Doctor VARCHAR(20),
+    Doctor_ID VARCHAR(20),
+    Name_of_the_Doctor VARCHAR(20),
+    Designation VARCHAR(20)
+)
+
+CREATE TABLE Doctor (
+    ID INTEGER AUTO_INCREMENT,
+    First_Name VARCHAR(20),
+    Middle_Name VARCHAR(20),
+    Last_Name VARCHAR(20),
+    Date_of_Birth DATE,
+    Date_of_Appointment DATE,
+    PRIMARY KEY (ID) 
+)
+
+CREATE TABLE Nurse (
+    ID INTEGER AUTO_INCREMENT,
+    First_Name VARCHAR(20),
+    Middle_Name  VARCHAR(20),
+    Last_Name  VARCHAR(20),
+    Date_of_Birth VARCHAR(20),
+    Date_of_Appointment VARCHAR(20),
+    PRIMARY KEY (ID) 
+)
+
+CREATE TABLE Prescription (
+    Date_of_Advise DATE,
+    Time_of_Meet_Up TIME,
+    Signature VARCHAR(20),
+    Name_of_the_Specialist VARCHAR(20),
+    Designation VARCHAR(20)
+)
+
+CREATE TABLE Specialist (
+    ID INTEGER AUTO_INCREMENT,
+    Name VARCHAR(20),
+    PRIMARY KEY (ID)
+)
+
+CREATE TABLE Medicine (
+    ID INTEGER AUTO_INCREMENT,
+    Name VARCHAR(20),
+    Cost INTEGER,
+    PRIMARY KEY (ID)
+)
+
+CREATE TABLE Medicine_Advise (
+    ID INTEGER AUTO_INCREMENT,
+    Name VARCHAR(20),
+    Quantity INTEGER,
+    Time_in_a_day INTEGER,
+    MBM BOOLEAN,
+    MAM BOOLEAN,
+    EBM BOOLEAN,
+    EAM BOOLEAN,
+    NBM BOOLEAN,
+    NAM BOOLEAN,
+    PRIMARY KEY (ID)
+)
+
+CREATE TABLE Test_Advise (
+    ID INTEGER AUTO_INCREMENT,
+    Name_of_the_test VARCHAR(20),
+    PRIMARY KEY (ID)
+)
+CREATE TABLE Experience (
+    ID INTEGER AUTO_INCREMENT,
+    Job_Title VARCHAR(20),
+    From_ YEAR,
+    To_ YEAR,
+    PRIMARY KEY (ID)
+)
+
+CREATE TABLE Educational_Qualification(
+    ID INTEGER AUTO_INCREMENT,
+    Degree VARCHAR(20),
+    Board_or_Institute VARCHAR(20),
+    Year_ YEAR,
+    Division_or_CGPA DOUBLE,
+    Position VARCHAR(20),
+    PRIMARY KEY (ID)
+)

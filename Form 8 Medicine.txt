@@ -1,0 +1,13 @@
+CREATE TABLE Medicine(
+    Supplier_ID int,
+    Supplier_Name VARCHAR(40),
+    Date_of_Supply VARCHAR(40),
+    
+    Medicine_ID int,
+    Medicine_Name VARCHAR(40),
+    Medicine_Type VARCHAR(40),
+    Medicine_Unit_Price int,
+    Medicine_Quantity int,
+    Medicine_Date_of_Manufacture VARCHAR(40),
+    Medicine_Expiry_date VARCHAR(40)
+    )

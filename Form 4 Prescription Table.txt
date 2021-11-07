@@ -1,0 +1,21 @@
+CREATE TABLE Prescription(
+    Patient_ID int,
+    Date_of_Advice VARCHAR(20),
+    Time1 VARCHAR(20),
+
+    Medicine_ID int,
+    Medicine_Name VARCHAR(20),	
+    Quantity INTEGER,
+    Times_in_a_day INTEGER,
+
+    MBM VARCHAR(20),
+    MAM VARCHAR(20),
+    EBM VARCHAR(20),
+    EAM VARCHAR(20),
+    NBM VARCHAR(20),
+    NAM VARCHAR(20),
+	
+    Signature VARCHAR(20),
+    Doctor_ID int,
+    Designation VARCHAR(20)
+   )

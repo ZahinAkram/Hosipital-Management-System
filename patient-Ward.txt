@@ -1,0 +1,1 @@
+Create table Patient_Ward(Patient_ID int, Ward_ID int,Bed_No int)

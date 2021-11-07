@@ -1,0 +1,36 @@
+CREATE TABLE Patient(
+
+    Patient_ID INTEGER PRIMARY KEY AUTO_INCREMENT,
+    Date_of_admission VARCHAR(20),
+    First_Name VARCHAR(20),
+    Middle_Name VARCHAR(20),
+    Last_Name VARCHAR(20),
+
+    Date_of_Birth VARCHAR(20),
+    Mobile_1  VARCHAR(20),
+    Mobile_2 VARCHAR(20),
+
+    PAD_Street_No VARCHAR(20),
+    PAD_Street_Name VARCHAR(20),
+    PAD_Area VARCHAR(20),
+    PAD_Thana VARCHAR(20),
+    PAD_District VARCHAR(20),
+
+    PerAD_Street_No VARCHAR(20),
+    PerAD_Name VARCHAR(20),
+    PerAD_Area VARCHAR(20),
+    PerAD_Thana VARCHAR(20),
+    PerAD_District VARCHAR(20),
+
+    Profession VARCHAR(20),
+    Amount_Deposited INTEGER,
+    Choice VARCHAR(20),
+
+    Signature VARCHAR(20),
+    Name_of_Person_Admitted VARCHAR(20),
+    RP VARCHAR(20)
+)
+
+
+
+	

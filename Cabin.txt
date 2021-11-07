@@ -1,0 +1,1 @@
+Create Table Cabin(Cabin_ID int,Rent int,C_Status varchar(20))                                                               

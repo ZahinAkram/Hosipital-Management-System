@@ -1,0 +1,51 @@
+CREATE TABLE Doctor (
+    ID INTEGER PRIMARY KEY AUTO_INCREMENT,
+    First_Name VARCHAR(20),
+    Middle_Name VARCHAR(20),
+    Last_Name VARCHAR(20),
+    Date_of_Birth VARCHAR(20),
+    Date_of_Appointment VARCHAR(20),
+    
+    SSC_Board VARCHAR(20),
+    SSC_Year VARCHAR(20),
+    SSC_CGPA VARCHAR(20),
+    SSC_Position VARCHAR(20),
+    
+    HSC_Board VARCHAR(20),
+    HSC_Year VARCHAR(20),
+    HSC_CGPA VARCHAR(20),
+    HSC_Position VARCHAR(20),
+    
+    MBBS1_Board VARCHAR(20),
+    MBBS1_Year VARCHAR(20),
+    MBBS1_CGPA VARCHAR(20),
+    MBBS1_Position VARCHAR(20),
+    
+    MBBS2_Board VARCHAR(20),
+    MBBS2_Year VARCHAR(20),
+    MBBS2_CGPA VARCHAR(20),
+    MBBS2_Position VARCHAR(20),
+    
+    MBBS3_Board VARCHAR(20),
+    MBBS3_Year VARCHAR(20),
+    MBBS3_CGPA VARCHAR(20),
+    MBBS3_Position VARCHAR(20),
+    
+    Exp1_Job VARCHAR(20),
+    Exp1_From VARCHAR(20),
+    Exp1_To VARCHAR(20),
+    Exp1_Organization VARCHAR(20),
+    
+    Exp2_Job VARCHAR(20),
+    Exp2_From VARCHAR(20),
+    Exp2_To VARCHAR(20),
+    Exp2_Organization VARCHAR(20),
+    
+    Exp3_Job VARCHAR(20),
+    Exp3_From VARCHAR(20),
+    Exp3_To VARCHAR(20),
+    Exp3_Organization VARCHAR(20),
+    
+    Membership VARCHAR(20)
+    
+)

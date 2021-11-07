@@ -1,0 +1,1 @@
+Create table Bill_Patient(Patient_Id int, bill int)

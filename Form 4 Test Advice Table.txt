@@ -1,0 +1,12 @@
+CREATE TABLE Test_Advice(
+    Patient_ID int,
+    Date_of_Advice VARCHAR(20),
+    Time1 VARCHAR(20),
+    Signature VARCHAR(20),
+    Doctor_ID int,
+    Designation VARCHAR(20),
+
+    Test_ID int,
+    Name_of_the_test VARCHAR(20),
+    
+)
